@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_product"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="10dp"
+    android:layout_marginStart="8dp">
+
+    <ImageView
+        android:id="@+id/img_product_make_up"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_user"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tv_product_name_make_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="kiyu."
+        android:textSize="16sp"
+        android:textColor="@color/black"/>
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:rating="5.0"
+        android:progressTint="@color/pinkAccent"
+        android:stepSize="1.0" />
+
+    <TextView
+        android:id="@+id/tv_product_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$ 10.00"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/pinkAccent"/>
+
+</LinearLayout>
